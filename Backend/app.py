@@ -23,6 +23,9 @@ except Exception as e:
 
 
 
+
+
+
 UPLOAD_FOLDER = 'Uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
