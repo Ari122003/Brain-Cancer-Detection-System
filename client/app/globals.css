@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.blue {
+	background-color: #00246b;
+}
+
+.light {
+	background-color: #cadcfc;
+}
+
+.but {
+	background-color: #00246b;
+}
+.but:hover {
+	background-color: #1f5bd3;
+}

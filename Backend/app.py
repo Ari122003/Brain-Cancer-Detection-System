@@ -66,19 +66,23 @@ def predict():
         
         
         prediction_class = (prediction >= 0.5).astype(int)
-        print(prediction_class[0][0])
+        res=prediction_class[0][0]
+        
+        if(res==1):
+            return jsonify({"res":"1"}), 200
+            
+        else:
+            return jsonify({"res":0}), 200
+
         
         
         
-        
-        return jsonify({"message": "File uploaded successfully"}), 200
     
     
     
     
     
     
-    return jsonify({"error": "File not allowed"}), 400
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Brain Cancer Detection")
