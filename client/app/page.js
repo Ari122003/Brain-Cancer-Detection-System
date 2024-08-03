@@ -7,8 +7,12 @@ export default function Home() {
 	const [selectedFile, setSelectedFile] = useState(null);
 	const [url, setUrl] = useState(null);
 	const [res, setRes] = useState(null);
-	const [show, setShow] = useState(false);
 
+	function reset() {
+		setSelectedFile(null);
+		setRes(null);
+		setRes(null);
+	}
 	const handleFileChange = (e) => {
 		const file = e.target.files[0];
 		setSelectedFile(file);
@@ -19,7 +23,6 @@ export default function Home() {
 
 	const sendPhoto = async (e) => {
 		e.preventDefault();
-		setShow(true);
 
 		if (!selectedFile) {
 			console.error("No file selected");
@@ -62,9 +65,9 @@ export default function Home() {
 					</div>
 				</nav>
 
-				{!show && (
+				{!selectedFile && (
 					<div className="mt-20">
-						<form onSubmit={sendPhoto}>
+						<form>
 							<div class="flex flex-col items-center justify-center mx-60">
 								<label
 									for="dropzone-file"
@@ -99,24 +102,27 @@ export default function Home() {
 										class="hidden"
 									/>
 								</label>
-								<div className="mt-5">
-									<button
-										type="submit"
-										class="text-white but font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 ">
-										Default
-									</button>
-								</div>
 							</div>
 						</form>
 					</div>
 				)}
 
-				{show && (
+				{selectedFile && (
 					<div className="mt-20 flex mx-60   justify-center">
 						<img class="max-h-60 max-w-60" src={url} alt="image description" />
 					</div>
 				)}
 
+				{!(res == 0 || res == 1) && (
+					<div className="mt-5 flex justify-center">
+						<button
+							type="button"
+							onClick={sendPhoto}
+							class="text-white but font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 ">
+							Submit
+						</button>
+					</div>
+				)}
 				{res != null && (
 					<div className="flex justify-center mx-60">
 						{res == 1 && (
@@ -128,9 +134,22 @@ export default function Home() {
 						)}
 						{res == 0 && (
 							<div className="flex justify-center p-5 rounded-md light mt-5">
-								<p class="text-green-800 font-bold">Nice.....Your MRI looks normal</p>
+								<p class="text-green-800 font-bold">
+									Nice.....Your MRI looks normal
+								</p>
 							</div>
 						)}
+					</div>
+				)}
+
+				{(res == 0 || res == 1) && (
+					<div className="mt-5 flex justify-center">
+						<button
+							type="button"
+							onClick={reset}
+							class="text-white but font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 ">
+							Reset
+						</button>
 					</div>
 				)}
 			</div>
