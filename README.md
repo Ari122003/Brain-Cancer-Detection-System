@@ -14,7 +14,7 @@ Here are some of the project's best features:
 *   Visualization: Utilizes OpenCV and Pillow for image processing and visualization.
 
 
-![Alt text](Untitled Diagram.drawio.svg)
+![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/Untitled%20Diagram.drawio.svg)
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the Repository</p>
