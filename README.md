@@ -13,8 +13,9 @@ Here are some of the project's best features:
 *   Web Interface: User-friendly web application for uploading MRI images and viewing results
 *   Visualization: Utilizes OpenCV and Pillow for image processing and visualization.
 
+<h2> MODEL ARCHITECTURE </h2>
 
-![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/Untitled%20Diagram.drawio.svg)
+![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/BCD.svg)
 
 <h2>🛠️ Installation Steps:</h2>
 
