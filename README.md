@@ -6,13 +6,15 @@
   
 <h2>🧐 Features</h2>
 
-Here're some of the project's best features:
+Here are some of the project's best features:
 
 *   High Accuracy: Achieves 99.54% accuracy on the MRI brain image dataset.
 *   Custom CNN Model: Designed and trained using a custom convolutional neural network.
 *   Web Interface: User-friendly web application for uploading MRI images and viewing results
 *   Visualization: Utilizes OpenCV and Pillow for image processing and visualization.
 
+
+![Alt text](Untitled Diagram.drawio)
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the Repository</p>
