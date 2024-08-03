@@ -14,7 +14,7 @@ Here are some of the project's best features:
 *   Visualization: Utilizes OpenCV and Pillow for image processing and visualization.
 
 
-![Alt text](/Untitled Diagram.drawio.svg)
+![Alt text](Untitled Diagram.drawio.svg)
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the Repository</p>
