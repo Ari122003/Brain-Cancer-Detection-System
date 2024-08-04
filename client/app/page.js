@@ -25,7 +25,7 @@ export default function Home() {
 		e.preventDefault();
 
 		if (!selectedFile) {
-			console.error("No file selected");
+			console.error("No file is selected");
 			return;
 		}
 
