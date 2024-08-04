@@ -19,8 +19,11 @@ Here are some of the project's best features:
 
 
 <h2> SCREEN SHOT</h2>
+
 ![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/Screenshot%202024-08-03%20185200.png)
+
 ![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/Screenshot%202024-08-03%20185243.png)
+
 ![Alt text](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/Screenshot%202024-08-03%20185312.png)
 
 
