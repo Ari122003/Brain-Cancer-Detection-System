@@ -93,5 +93,5 @@ Technologies used in the project:
 
 <h2>LICENSE</h2>
 
-![MIT LICENSE](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/LICENSE)
+[MIT LICENSE](https://github.com/Ari122003/Brain-Cancer-Detection-System/blob/master/LICENSE)
 
