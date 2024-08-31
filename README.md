@@ -89,3 +89,7 @@ Technologies used in the project:
 *   Image Processing: OpenCV Pillow
 *   Backend: Flask
 *   Frontend: Next.js Tailwind CSS
+
+
+<h2>LICENSE</h2>
+
